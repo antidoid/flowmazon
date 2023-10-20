@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/db/prisma";
 import { Metadata } from "next"
-import { RedirectType, redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 import FormSubmitButton from "@/components/FormSubmitButton";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../api/auth/[...nextauth]/route";
